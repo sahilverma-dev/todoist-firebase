@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.loader div {
+  animation: loading infinite 1s linear;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes loading {
+  0% {
+    /* width: 0; */
+    left: 0;
+  }
+
+  50% {
+    /* width: 75%; */
+    left: 100%;
+  }
+  100% {
+    /* width: 33%; */
+    left: 150%;
+  }
+}
