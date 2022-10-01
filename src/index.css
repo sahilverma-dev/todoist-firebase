@@ -6,7 +6,7 @@
   animation: loading infinite 1s linear;
 }
 
-.hide-scroll::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 

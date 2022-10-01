@@ -18,16 +18,17 @@ import { VscBell as BellIcon } from "react-icons/vsc";
 // react router dom
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ openSidebar, setOpenSidebar }) => {
   const [searchInput, setSearchInput] = useState("");
   const { user, login, logout } = useAuth();
   return (
     <div className="w-full bg-primary text-white px-2 py-1">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 bg-transparent overflow-x-scroll sm:overscroll-x-none hide-scroll">
+      <div className=" mx-auto flex items-center justify-between gap-2 bg-transparent overflow-x-scroll sm:overscroll-x-none hide-scroll">
         <div className=" flex items-center gap-2">
           <button
             type="button"
             className="text-xl p-2 rounded transition-all hover:bg-white/20 text-white/80"
+            onClick={() => setOpenSidebar(!openSidebar)}
           >
             <MenuIcon />
           </button>

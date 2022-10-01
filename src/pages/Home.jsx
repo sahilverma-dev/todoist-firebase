@@ -1,11 +1,15 @@
 import React from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
+
+// framer motion
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <motion.div layout>
+      {/* <Header /> */}
+      Home
+    </motion.div>
   );
 };
 
