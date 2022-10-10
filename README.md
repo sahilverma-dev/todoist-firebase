@@ -79,7 +79,7 @@ https://todoist-firebase.vercel.app/
 
 ### Dark Theme Toggle
 
-![Dark Theme Toggle](screenshots/task-drag.gif)
+![Dark Theme Toggle](screenshots/theme-toggle.gif)
 
 ### Task Dragging
 
