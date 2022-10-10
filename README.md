@@ -2,7 +2,7 @@
 
 # Todoist Firebase
 
-Todoist Firebase is Todoist Clone made with React JS and Firebase. This tools will help you to organize your life and works and maintain the tasks you want to performe in upcoming time.
+Todoist Firebase is Todoist Clone made with React JS and Firebase. This tools will help you to organize your life and works and maintain the tasks you want to performed in upcoming time.
 
 ## Live Website URL
 
@@ -36,7 +36,7 @@ https://todoist-firebase.vercel.app/
 
 5. Create **.env** file according to the **.env.example** file with your Firebase credentials.
 6. Go to the **[Firebase](https://firebase.google.com/)** and create a new project.
-7. Copy and paste the creadentials on the **.env** file.
+7. Copy and paste the credentials on the **.env** file.
 8. Enable **Firestore** and **Authentication**.
 9. Select **Google Authentication** on the **Authentication services**.
 10. Now start the server.
