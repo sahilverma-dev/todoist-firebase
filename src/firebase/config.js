@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDlFSyMqJ1IZGmrOzOvO4tpRO6hc2gyGPw",
-  authDomain: "testing-edf48.firebaseapp.com",
-  databaseURL: "https://testing-edf48-default-rtdb.firebaseio.com",
-  projectId: "testing-edf48",
-  storageBucket: "testing-edf48.appspot.com",
-  messagingSenderId: "322971047410",
-  appId: "1:322971047410:web:b14b7987e49e1011ef876b",
+  apiKey: "AIzaSyBFxdC_QVifRcGMXpAfVYYVbOa2MSfhpbA",
+  authDomain: "todoist-firebase-c4ba1.firebaseapp.com",
+  projectId: "todoist-firebase-c4ba1",
+  storageBucket: "todoist-firebase-c4ba1.appspot.com",
+  messagingSenderId: "804650922059",
+  appId: "1:804650922059:web:5cc3b3c318a2eba144ddce",
+  measurementId: "G-0M7R3SQSPV",
 };
 
 const app = initializeApp(firebaseConfig);
