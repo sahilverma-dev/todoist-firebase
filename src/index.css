@@ -10,18 +10,15 @@
   display: none;
 }
 
-@keyframes loading {
-  0% {
-    /* width: 0; */
-    left: 0;
-  }
-
-  50% {
-    /* width: 75%; */
-    left: 100%;
-  }
-  100% {
-    /* width: 33%; */
-    left: 150%;
-  }
+.theme_dark .loading_screen--logo .logo_bg {
+  fill: hsla(0, 0%, 100%, 0.87);
+}
+.theme_dark .loading_screen--logo .logo_stripe {
+  fill: #1f1f1f;
+}
+.theme_dark .loading_screen--spinner .ring_thumb {
+  fill: hsla(0, 0%, 100%, 0.87);
+}
+.theme_dark .loading_screen--spinner .ring_track {
+  fill: hsla(0, 0%, 100%, 0.4);
 }
