@@ -69,6 +69,10 @@ https://todoist-firebase.vercel.app/
 
 ## Features
 
+### Responsive Design
+
+![Responsive Design](screenshots/resposive.png)
+
 ### User Authentication
 
 ![Login](screenshots/login.png)
