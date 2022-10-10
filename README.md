@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+![Todoist Firebase](public/images/open-graph.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todoist Firebase
 
-## Available Scripts
+Todoist Firebase is Todoist Clone made with React JS and Firebase. This tools will help you to organize your life and works and maintain the tasks you want to performe in upcoming time.
 
-In the project directory, you can run:
+## Live Website URL
 
-### `npm start`
+https://todoist-firebase.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the reposetry to your system.
 
-### `npm test`
+```bash
+  git clone https://github.com/theviralboy/todoist-firebase
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Change the directory to the **todoist-firebase**.
 
-### `npm run build`
+```bash
+  cd todoist-firebase
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install all the packages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm i # or yarn install if you're using yarn
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open the VS Code in the this folder.
 
-### `npm run eject`
+```bash
+  code .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Create **.env** file according to the **.env.example** file with your Firebase credentials.
+6. Go to the **[Firebase](https://firebase.google.com/)** and create a new project.
+7. Copy and paste the creadentials on the **.env** file.
+8. Enable **Firestore** and **Authentication**.
+9. Select **Google Authentication** on the **Authentication services**.
+10. Now start the server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm start # or yarn start if you're using yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Light Theme
 
-## Learn More
+#### Home
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Home](screenshots/home-light.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Task
 
-### Code Splitting
+![Task](screenshots/task-light.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Dark Theme
 
-### Analyzing the Bundle Size
+#### Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Home](screenshots/home-dark.png)
 
-### Making a Progressive Web App
+#### Task
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Task](screenshots/task-dark.png)
 
-### Advanced Configuration
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### User Authentication
 
-### Deployment
+![Login](screenshots/login.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Dark Theme Toggle
 
-### `npm run build` fails to minify
+![Dark Theme Toggle](screenshots/task-drag.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Task Dragging
+
+![Task Dragging](screenshots/task-drag.gif)
+
+## Tech Stack
+
+React JS, Tailwind CSS, Framer Motion, Firebase 9.
+
+## Feedback
+
+If you have any feedback, please reach out to us at sahilverma.webdev@gmail.com
